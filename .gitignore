@@ -1,17 +1,15 @@
 # ---- PRIVATE DATA (Never Commit) ----
 data_private/
+
+# Ignore JSONs & raw exports
 *.json
-*.csv
-*.xlsx
-*.xlsm
-*.xlsb
+Streaming_History_*.json
+extended_spotify_*.*
+
+# Optional: ignore other scratch data folders
 raw/
 scratch/
 exports/
-
-# Spotify-specific
-Streaming_History_*.json
-extended_spotify_*.*
 
 # ---- SYSTEM / EDITOR ----
 .DS_Store
