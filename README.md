@@ -1,0 +1,1 @@
+This repo is a long-term sandbox where I practice music analytics in Excel, Python, Tableau, and APIs. I’m building fluency through small, iterative steps — charts, notes, and exploratory work. This is a sketchbook, not a polished portfolio.

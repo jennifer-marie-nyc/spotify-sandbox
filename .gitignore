@@ -1,0 +1,29 @@
+# ---- PRIVATE DATA (Never Commit) ----
+data_private/
+*.json
+*.csv
+*.xlsx
+*.xlsm
+*.xlsb
+raw/
+scratch/
+exports/
+
+# Spotify-specific
+Streaming_History_*.json
+extended_spotify_*.*
+
+# ---- SYSTEM / EDITOR ----
+.DS_Store
+Thumbs.db
+
+# ---- PYTHON / NOTEBOOKS ----
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# ---- VS CODE ----
+.vscode/
+
+# ---- ENV FILES ----
+.env
