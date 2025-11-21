@@ -150,6 +150,24 @@ These rules explain how to interpret the numbers:
 - No exclusions for skips, short plays, or partial tracks beyond whatever Spotify already enforces for `msPlayed` in the export.
 - Rows with missing album information (`album_album_name` blank) may appear as `(blank)` in pivots and are treated as “unknown / uncategorized content.”
 
+### 4.4 Exploratory Analysis (Phase 1)
+
+**Exploratory Visualizations (Phase 1)**
+
+- The initial goal of Phase 1 was to create lightweight, exploratory outputs that help reveal early patterns in the 2025 listening data without attempting full-scale interpretation.
+
+**Top Artists Heatmap (Jan–Oct 2025)**
+- A month-by-month heatmap was created based on fact_plays_2025_with_album_family.
+- This visualization highlights periods of high activity for key artists and makes temporal shifts visible at a glance. Sparklines were added to show the shape of each artist’s year without overwhelming the sheet.
+- This artifact serves as a quick pattern-scanning tool and provides context for deeper analysis in later phases.
+
+**Top 5 Artists – Monthly Listening Chart (Jan–Oct 2025)**
+- A dedicated chart sheet visualizes month-by-month listening for five core artists.
+- Because Ozzy Osbourne and Father John Misty have significantly different magnitude peaks, Ozzy was placed on a secondary axis for clarity.
+- The chart intentionally avoids heavy styling and is meant as a clean exploratory view, not a final visualization.
+- A small source note links the chart back to its underlying Power Query–generated fact table.
+- These Phase 1 visuals establish the foundation for more sophisticated analysis in Phase 2, including year-over-year comparisons, canonical track aggregation, and artist-family–level insights.
+
 ---
 
 ## 5. Current Limitations (Prototype Status)

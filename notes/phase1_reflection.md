@@ -1,0 +1,5 @@
+## Phase 1 Reflection
+
+Phase 1 focused on getting re-oriented with Excel, Power Query, and structured analytical workflows. The process of importing, shaping, and linking the October data reminded me how much of this skillset is already in my muscle memory, and how quickly the tools come back once I’m actually inside a real dataset. Building the heatmap and chart helped me reconnect with the exploratory joy of analysis — noticing shape, seasonality, and intuitively meaningful spikes without forcing interpretation too early.
+
+I was also struck by how refreshing it feels to work on something that blends creativity and structure, especially compared to the conservative norms of accounting. This project is helping me shift further into an analytical identity that aligns with the work I want to do. Looking ahead, I’m excited to expand this into a more formal model in pandas and begin thinking about year-over-year patterns and artist arcs once the full 2025 export arrives.
